@@ -2,6 +2,10 @@ export const initialState = {
   basket: [],
 };
 
+//Selector
+export const getBasketTotal = (basket) =>
+  basket?.reducer(())
+
 const reducer = (state, action) => {
   console.log(action);
   switch(action.type) {
