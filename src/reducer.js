@@ -3,6 +3,8 @@ export const initialState = {
   user: null
 };
 
+//pk_test_51IBkYpJLYiXcTDTowhJ8rao2IvhWcYgfMR65s6ayFjUaKcy368jW5fgnIMkcDI9nj1r0uJXVeurucmLFx84ojRyG00m2jKiVuj
+
 //Selector
 export const getBasketTotal = (basket) =>
   basket?.reduce((amount, item) => item.price + amount, 0);
