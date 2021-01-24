@@ -17,7 +17,7 @@ function Payment() {
   const handleSubmit = e => {
 
   }
-
+ 
   const handleChange = e => {
 
   }
