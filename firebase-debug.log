@@ -1,48 +1,51 @@
-[debug] [2021-01-18T12:11:14.649Z] ----------------------------------------------------------------------
-[debug] [2021-01-18T12:11:14.654Z] Command:       /usr/local/bin/node /home/runner/AmazonClone/node_modules/.bin/firebase login
-[debug] [2021-01-18T12:11:14.655Z] CLI Version:   9.2.1
-[debug] [2021-01-18T12:11:14.655Z] Platform:      linux
-[debug] [2021-01-18T12:11:14.655Z] Node Version:  v12.18.3
-[debug] [2021-01-18T12:11:14.655Z] Time:          Mon Jan 18 2021 12:11:14 GMT+0000 (Coordinated Universal Time)
-[debug] [2021-01-18T12:11:14.656Z] ----------------------------------------------------------------------
-[debug] [2021-01-18T12:11:14.656Z] 
+[debug] [2021-01-29T08:19:27.396Z] ----------------------------------------------------------------------
+[debug] [2021-01-29T08:19:27.407Z] Command:       /usr/local/bin/node /home/runner/AmazonClone/node_modules/.bin/firebase login
+[debug] [2021-01-29T08:19:27.407Z] CLI Version:   9.2.1
+[debug] [2021-01-29T08:19:27.408Z] Platform:      linux
+[debug] [2021-01-29T08:19:27.408Z] Node Version:  v12.18.3
+[debug] [2021-01-29T08:19:27.408Z] Time:          Fri Jan 29 2021 08:19:27 GMT+0000 (Coordinated Universal Time)
+[debug] [2021-01-29T08:19:27.409Z] ----------------------------------------------------------------------
+[debug] [2021-01-29T08:19:27.409Z] 
 [info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
  
 [info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
 [info] 
 [info] Visit this URL on this device to log in:
-[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=294467509&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=767485301&redirect_uri=http%3A%2F%2Flocalhost%3A9005
 [info] 
 [info] Waiting for authentication...
-[debug] [2021-01-18T14:29:19.119Z] ----------------------------------------------------------------------
-[debug] [2021-01-18T14:29:19.152Z] Command:       /usr/local/bin/node /home/runner/AmazonClone/node_modules/.bin/firebase login
-[debug] [2021-01-18T14:29:19.162Z] CLI Version:   9.2.1
-[debug] [2021-01-18T14:29:19.162Z] Platform:      linux
-[debug] [2021-01-18T14:29:19.163Z] Node Version:  v12.18.3
-[debug] [2021-01-18T14:29:19.163Z] Time:          Mon Jan 18 2021 14:29:19 GMT+0000 (Coordinated Universal Time)
-[debug] [2021-01-18T14:29:19.170Z] ----------------------------------------------------------------------
-[debug] [2021-01-18T14:29:19.171Z] 
+[debug] [2021-01-29T11:45:13.160Z] ----------------------------------------------------------------------
+[debug] [2021-01-29T11:45:13.164Z] Command:       /usr/local/bin/node /home/runner/AmazonClone/node_modules/.bin/firebase login
+[debug] [2021-01-29T11:45:13.164Z] CLI Version:   9.2.1
+[debug] [2021-01-29T11:45:13.164Z] Platform:      linux
+[debug] [2021-01-29T11:45:13.164Z] Node Version:  v12.18.3
+[debug] [2021-01-29T11:45:13.164Z] Time:          Fri Jan 29 2021 11:45:13 GMT+0000 (Coordinated Universal Time)
+[debug] [2021-01-29T11:45:13.165Z] ----------------------------------------------------------------------
+[debug] [2021-01-29T11:45:13.165Z] 
+[debug] [2021-01-29T11:45:13.170Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
 [info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
  
+[debug] [2021-01-29T11:45:14.244Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-01-29T11:45:14.245Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
 [info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
 [info] 
 [info] Visit this URL on this device to log in:
-[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=697367241&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=559618260&redirect_uri=http%3A%2F%2Flocalhost%3A9005
 [info] 
 [info] Waiting for authentication...
-[debug] [2021-01-18T14:32:43.178Z] ----------------------------------------------------------------------
-[debug] [2021-01-18T14:32:43.184Z] Command:       /usr/local/bin/node /home/runner/AmazonClone/node_modules/.bin/firebase login
-[debug] [2021-01-18T14:32:43.185Z] CLI Version:   9.2.1
-[debug] [2021-01-18T14:32:43.186Z] Platform:      linux
-[debug] [2021-01-18T14:32:43.186Z] Node Version:  v12.18.3
-[debug] [2021-01-18T14:32:43.187Z] Time:          Mon Jan 18 2021 14:32:43 GMT+0000 (Coordinated Universal Time)
-[debug] [2021-01-18T14:32:43.187Z] ----------------------------------------------------------------------
-[debug] [2021-01-18T14:32:43.187Z] 
+[debug] [2021-01-29T11:46:14.807Z] ----------------------------------------------------------------------
+[debug] [2021-01-29T11:46:14.831Z] Command:       /usr/local/bin/node /home/runner/AmazonClone/node_modules/.bin/firebase login
+[debug] [2021-01-29T11:46:14.831Z] CLI Version:   9.2.1
+[debug] [2021-01-29T11:46:14.831Z] Platform:      linux
+[debug] [2021-01-29T11:46:14.831Z] Node Version:  v12.18.3
+[debug] [2021-01-29T11:46:14.832Z] Time:          Fri Jan 29 2021 11:46:14 GMT+0000 (Coordinated Universal Time)
+[debug] [2021-01-29T11:46:14.833Z] ----------------------------------------------------------------------
+[debug] [2021-01-29T11:46:14.833Z] 
 [info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
  
 [info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
 [info] 
 [info] Visit this URL on this device to log in:
-[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1072991852&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=371782832&redirect_uri=http%3A%2F%2Flocalhost%3A9005
 [info] 
 [info] Waiting for authentication...
