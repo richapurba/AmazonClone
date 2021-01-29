@@ -1,12 +1,14 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
+import Slider from "./Slider";
 
 function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <img className="home__image" src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg" alt="" />
+	  	<Slider />
+        {/*<img className="home__image" src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg" alt="" />*/}
         <div className="home__row">
           <Product id="12321341" title="Rydebot Puledro- Smart Motorized Rideable Carry-on Suitcase/Luggage for Adults/Kids" price={169.0} image="https://images-na.ssl-images-amazon.com/images/I/41uZOcXjpvL._AC_SX425_.jpg" rating={5} />
           <Product id="49538094" title="Problem Solving with Algorithms and Data Structures Using Python SECOND EDITION" price={38.30} image="https://images-na.ssl-images-amazon.com/images/I/51YORtBDG4L._SX405_BO1,204,203,200_.jpg" rating={4} />
