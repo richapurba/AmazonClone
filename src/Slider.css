@@ -26,8 +26,8 @@
 	transform: translateY(-50%);
 	width: 5%;
 	height: 12%;
-	background-color: #fff;
 	border-radius: 50%;
+	cursor: pointer;
 }
 #left {left: 0;}
 #right {right: 0;}
