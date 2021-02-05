@@ -9,6 +9,7 @@ import { getBasketTotal } from "./reducer";
 import axios from "./axios";
 
 function Payment() {
+	// eslint-disable-next-line
   const [{basket, user}, dispatch] = useStateValue();
   const history = useHistory();
 
@@ -35,6 +36,7 @@ function Payment() {
   const handleSubmit = async (event) => {
 	  event.preventDefault();
 	  setProcessing(true);
+	  // eslint-disable-next-line
 	  const payload = await stripe.confirmCardPayment(clientSecret, {
 		  payment__method: {
 			  card: elements.getElement(CardElement)

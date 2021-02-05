@@ -7,6 +7,7 @@ import {useHistory} from "react-router-dom";
 
 function Subtotal() {
   const history = useHistory();
+  // eslint-disable-next-line
   const [{basket}, dispatch] = useStateValue();
   return (
     <div className="subtotal">

@@ -27,6 +27,7 @@ const reducer = (state, action) => {
         newBasket.splice(index, 1);
       }
       else {
+		  // eslint-disable-next-line
         console.warn("Can't remove product (id: ${action.id}) as its not in basket!")
       }
       return {

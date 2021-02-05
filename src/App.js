@@ -11,6 +11,7 @@ import {useStateValue} from "./StateProvider";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 
+// eslint-disable-next-line
 const promise = loadStripe("pk_test_51IBkYpJLYiXcTDTowhJ8rao2IvhWcYgfMR65s6ayFjUaKcy368jW5fgnIMkcDI9nj1r0uJXVeurucmLFx84ojRyG00m2jKiVuj");
 
 function App() {
